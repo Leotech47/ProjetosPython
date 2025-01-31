@@ -1,10 +1,10 @@
-# Projeto Jogo da Forca com Pyhthon
+# Projeto Jogo da Forca com Python
 
 ### Biblioteca Utilizada - random
-### Projeto simples de um jogo da forca que faz um sorteia entre as palavras de uma lista.
+### Projeto simples de um jogo da forca que faz um sorteio entre as palavras de uma lista.
 
 - Antes de mais nada eu importo a biblioteca ```random```;
-- Depois crio uma função ```escolher_palavra``` crio uma lista contendo palavras p´re escolhidas por mim para serem possiveis palavras do game, a seguir utilizo o método ```random.choice``` para sortear uma palavra da lista criada;
+- Depois crio uma função ```escolher_palavra``` crio uma lista contendo palavras para serem escolhidas por mim para serem possiveis palavras do game, a seguir utilizo o método ```random.choice``` para sortear uma palavra da lista criada;
 - Na terceira parte do código eu crio a função jogar_forca;
  - defino a variável palavra, atribuindo a ela o chamdo do método ```escolher_palavra```, assim como criar listas zerada para ```letras_erradas``` e adiconar a palavra selecionada na lista ```letras_corretas```, além da criação das variaveis ```tentativas``` que defini a quantidade de vezes que o usuário pode errar e ```ponto``` que diminiu dez pontos a cada erro cometido pelo usuário;
  - Crio dois prints para exibir uma mensagem de inicio de jogo;
