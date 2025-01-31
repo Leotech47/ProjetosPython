@@ -38,9 +38,7 @@
    
    - **`else:`** O `else` é usado quando nenhuma das condições anteriores é verdadeira. Neste exemplo, se a idade for menor que 17, o código dentro do `else` será executado, informando ao usuário que ele não pode iniciar o processo para obter a CNH.
 
-4. **Texto modelo para LinkedIn:**
-
-   🚗 **Entendendo a Lógica de Condicionais em Python!**
+4. 🚗 **Entendendo a Lógica de Condicionais em Python!**
 
    No código de Python que você vê abaixo, temos um exemplo prático de como utilizar condicionais para verificar a idade de um usuário e determinar se ele pode ou não iniciar o processo para tirar a CNH.
 
