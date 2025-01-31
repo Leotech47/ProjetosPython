@@ -6,9 +6,9 @@
 - Antes de mais nada eu importo a biblioteca ```random```;
 - Depois crio uma função ```escolher_palavra``` crio uma lista contendo palavras para serem escolhidas por mim para serem possiveis palavras do game, a seguir utilizo o método ```random.choice``` para sortear uma palavra da lista criada;
 - Na terceira parte do código eu crio a função jogar_forca;
- - defino a variável palavra, atribuindo a ela o chamdo do método ```escolher_palavra```, assim como criar listas zerada para ```letras_erradas``` e adiconar a palavra selecionada na lista ```letras_corretas```, além da criação das variaveis ```tentativas``` que defini a quantidade de vezes que o usuário pode errar e ```ponto``` que diminiu dez pontos a cada erro cometido pelo usuário;
+ - defino a variável palavra, atribuindo a ela o chamdo do método ```escolher_palavra```, assim como criar listas zerada para ```letras_erradas``` e adiconar a palavra selecionada na lista ```letras_corretas```, além da criação das variaveis ```tentativas``` que define a quantidade de vezes que o usuário pode errar e ```ponto``` que diminui dez pontos a cada erro cometido pelo usuário;
  - Crio dois prints para exibir uma mensagem de inicio de jogo;
- - Depois utilizo um ```while``` para vrificar a quantidade de letras e adicionar a mesma quantidade de ```_``` na variável ```palavra_secreta```;
+ - Depois utilizo um ```while``` para verificar a quantidade de letras e adicionar a mesma quantidade de ```_``` na variável ```palavra_secreta```;
  - Imprimo a ```palavra_secreta``` parcial ao usuário, onde só é informado as letras que ele acertou;
  - Após utilizo um ```if``` para verificar se todas as letras informadas pelo usuário são iguais a variável ```palavra```;
  - Solicito ao usuário que insira uma letra e a atribuo a variável ```tentativa```;
